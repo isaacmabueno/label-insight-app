@@ -20,7 +20,7 @@ p {
 
 .Photo {
     flex:1 1 auto;
-    width: 20%;
+    width: calc(20% - 20px);
     vertical-align: top;
     cursor: pointer;
     text-align: center;
@@ -79,7 +79,7 @@ p {
     }
 
     .Photo {
-        width: 50%;
+        width: calc(50% - 10px);
         margin: 0 auto;
     }
     .Header {
