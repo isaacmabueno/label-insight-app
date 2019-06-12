@@ -14,30 +14,31 @@ p {
     font-family: 'Open Sans';
 }
 
+button {
+    background: #57bdac;
+    color: #fff;
+    font-family: 'Open Sans';
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background: #57bdac80;
+    cursor: pointer;
+}
+
+textarea {
+    margin: 15px 0;
+    border: none !important;
+    box-shadow: 10px 10px 5px grey;
+
+
+}
+
 .ModalContainer p {
     font-size: 16px;
-}
-
-.Photo {
-    flex:1 1 auto;
-    width: calc(20% - 20px);
-    vertical-align: top;
-    cursor: pointer;
-    text-align: center;
-    margin: 10px 0;
-    padding: 10px 10px;
-    list-style: none;
-    display: inline-block;
-}
-
-.Header {
-  background-color: #fff;
-  padding: 0 7%;
-  border-bottom: 8px solid #57BDAC;
-}
-
-.Header img {
-  max-width: 30em;
 }
 
 .ModalContainer img {
@@ -54,6 +55,28 @@ p {
 .ModalContainer {
     text-align: center;
     padding-top: 50px;
+}
+
+.Photo {
+    flex:1 1 auto;
+    width: calc(20% - 20px);
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.Header {
+    background-color: #fff;
+    padding: 0 7%;
+    border-bottom: 8px solid #57BDAC;
+}
+
+.Header img {
+    max-width: 30em;
 }
 
 .Container {
@@ -93,8 +116,8 @@ p {
     }
 
     .Photo {
-      width: 100%;
-      margin: 0 auto;
-      padding: 0;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
   }
 }
